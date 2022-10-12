@@ -68,13 +68,21 @@ const Home: NextPage = () => {
             />
           ))
         ) : (
-          <Text
-            fontSize={{ base: "sm", md: "lg" }}
-            fontWeight="bold"
-            ml="60"
-            mt={4}
-            color="gray.500"
-          >Add new feedback</Text>
+          <Flex
+            w="100%"
+            h="100%"
+            align="center"
+            justify="center"
+          >
+            <Text
+              fontSize={{ base: "sm", md: "lg" }}
+              fontWeight="bold"
+              mt={4}
+              color="gray.500"
+            >
+              Add new feedback
+            </Text>
+          </Flex>
         )}
       </Box>
     </Flex>
